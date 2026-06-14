@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ── Left page ───────────────────────────────────────────────── -->
+    <path android:fillColor="#171717"
+        android:pathData="M 13,23 L 51,17 L 51,89 L 13,94 Z"/>
+    <!-- green border glow left page -->
+    <path android:fillColor="#00000000" android:strokeColor="#69FF47"
+        android:strokeWidth="1.0" android:strokeAlpha="0.55"
+        android:pathData="M 13,23 L 51,17 L 51,89 L 13,94 Z"/>
+    <!-- subtle page lines -->
+    <path android:fillColor="#00000000" android:strokeColor="#69FF47"
+        android:strokeWidth="0.45" android:strokeAlpha="0.15"
+        android:pathData="M 19,34 L 48,31"/>
+    <path android:fillColor="#00000000" android:strokeColor="#69FF47"
+        android:strokeWidth="0.45" android:strokeAlpha="0.15"
+        android:pathData="M 19,41 L 48,38"/>
+    <path android:fillColor="#00000000" android:strokeColor="#69FF47"
+        android:strokeWidth="0.45" android:strokeAlpha="0.15"
+        android:pathData="M 19,48 L 48,45"/>
+    <path android:fillColor="#00000000" android:strokeColor="#69FF47"
+        android:strokeWidth="0.45" android:strokeAlpha="0.15"
+        android:pathData="M 19,55 L 48,52"/>
+
+    <!-- ── Right page ──────────────────────────────────────────────── -->
+    <path android:fillColor="#171717"
+        android:pathData="M 57,17 L 95,23 L 95,94 L 57,89 Z"/>
+    <path android:fillColor="#00000000" android:strokeColor="#69FF47"
+        android:strokeWidth="1.0" android:strokeAlpha="0.55"
+        android:pathData="M 57,17 L 95,23 L 95,94 L 57,89 Z"/>
+    <path android:fillColor="#00000000" android:strokeColor="#69FF47"
+        android:strokeWidth="0.45" android:strokeAlpha="0.15"
+        android:pathData="M 60,31 L 89,34"/>
+    <path android:fillColor="#00000000" android:strokeColor="#69FF47"
+        android:strokeWidth="0.45" android:strokeAlpha="0.15"
+        android:pathData="M 60,38 L 89,41"/>
+    <path android:fillColor="#00000000" android:strokeColor="#69FF47"
+        android:strokeWidth="0.45" android:strokeAlpha="0.15"
+        android:pathData="M 60,45 L 89,48"/>
+    <path android:fillColor="#00000000" android:strokeColor="#69FF47"
+        android:strokeWidth="0.45" android:strokeAlpha="0.15"
+        android:pathData="M 60,52 L 89,55"/>
+
+    <!-- ── Bottom page fans ─────────────────────────────────────────── -->
+    <path android:fillColor="#1F1F1F" android:pathData="M 15,91 L 51,87 L 51,90 L 15,94 Z"/>
+    <path android:fillColor="#161616" android:pathData="M 15,93 L 51,89 L 51,92 L 15,96 Z"/>
+    <path android:fillColor="#1F1F1F" android:pathData="M 57,87 L 93,91 L 93,94 L 57,90 Z"/>
+    <path android:fillColor="#161616" android:pathData="M 57,89 L 93,93 L 93,96 L 57,92 Z"/>
+
+    <!-- ── River / Flow: outermost glow (widest, most transparent) ─── -->
+    <path android:fillColor="#00000000"
+        android:strokeColor="#69FF47"
+        android:strokeWidth="16"
+        android:strokeAlpha="0.04"
+        android:strokeLineCap="round"
+        android:pathData="M 54,98 C 46,84 64,72 50,58 C 38,46 64,34 54,18 C 52,14 54,10 54,10"/>
+
+    <!-- River glow layer 2 -->
+    <path android:fillColor="#00000000"
+        android:strokeColor="#69FF47"
+        android:strokeWidth="11"
+        android:strokeAlpha="0.08"
+        android:strokeLineCap="round"
+        android:pathData="M 54,98 C 46,84 64,72 50,58 C 38,46 64,34 54,18 C 52,14 54,10 54,10"/>
+
+    <!-- River glow layer 3 -->
+    <path android:fillColor="#00000000"
+        android:strokeColor="#69FF47"
+        android:strokeWidth="7"
+        android:strokeAlpha="0.18"
+        android:strokeLineCap="round"
+        android:pathData="M 54,98 C 46,84 64,72 50,58 C 38,46 64,34 54,18 C 52,14 54,10 54,10"/>
+
+    <!-- River glow layer 4 -->
+    <path android:fillColor="#00000000"
+        android:strokeColor="#69FF47"
+        android:strokeWidth="4"
+        android:strokeAlpha="0.45"
+        android:strokeLineCap="round"
+        android:pathData="M 54,98 C 46,84 64,72 50,58 C 38,46 64,34 54,18 C 52,14 54,10 54,10"/>
+
+    <!-- River bright core -->
+    <path android:fillColor="#00000000"
+        android:strokeColor="#69FF47"
+        android:strokeWidth="2.2"
+        android:strokeAlpha="1.0"
+        android:strokeLineCap="round"
+        android:pathData="M 54,98 C 46,84 64,72 50,58 C 38,46 64,34 54,18 C 52,14 54,10 54,10"/>
+
+</vector>
