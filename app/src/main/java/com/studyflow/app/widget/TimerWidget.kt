@@ -35,6 +35,7 @@ class TimerWidget : GlanceAppWidget() {
 
 @Composable
 private fun TimerWidgetContent(remaining: Long, isRunning: Boolean, isFinished: Boolean) {
+    val ctx = LocalContext.current
     val green   = ColorProvider(Color(0xFF69FF47))
     val white   = ColorProvider(Color(0xFFFFFFFF))
     val muted   = ColorProvider(Color(0xFF9E9E9E))
@@ -45,7 +46,7 @@ private fun TimerWidgetContent(remaining: Long, isRunning: Boolean, isFinished: 
             .fillMaxSize()
             .background(ColorProvider(Color(0xFF1E1E1E)))
             .padding(horizontal = 16.dp, vertical = 10.dp)
-            .clickable(actionStartActivity<MainActivity>()),
+            .clickable(actionStartActivity(Intent(ctx, MainActivity::class.java))),
         verticalAlignment = Alignment.Vertical.CenterVertically,
         horizontalAlignment = Alignment.Horizontal.CenterHorizontally,
     ) {
